@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# React JS Hexlet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tasks from [Hexlet](https://hexlet.io/) ReactJS course
 
-## Available Scripts
+[My profile (Top-100)](https://ru.hexlet.io/u/datsenko_md)
 
-In the project directory, you can run:
+## Install
 
-### `npm start`
+```bash
+make install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Build
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+make build
+```
 
-### `npm test`
+## Start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+make start
+```
 
-### `npm run build`
+## Test
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+make test
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Content
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [index.js](src/index.js)
+* [Components](src/Components)
+    * [Alert.jsx](src/Components/Alert.jsx)
+    * [App.jsx](src/Components/App.jsx)
+    * [App2.jsx](src/Components/App2.jsx)
+    * [Article.jsx](src/Components/Article.jsx)
+    * [Card.jsx](src/Components/Card.jsx)
+    * [Clock.jsx](src/Components/Clock.jsx)
+    * [Clock2.jsx](src/Components/Clock2.jsx)
+    * [Collapse.jsx](src/Components/Collapse.jsx)
+    * [Component.jsx](src/Components/Component.jsx)
+    * [Counter.jsx](src/Components/Counter.jsx)
+    * [CustomTextInput.jsx](src/Components/CustomTextInput.jsx)
+    * [DefinitionList.jsx](src/Components/DefinitionList.jsx)
+    * [Example.jsx](src/Components/Example.jsx)
+    * [Hello.jsx](src/Components/Hello.jsx)
+    * [HelloMessage.jsx](src/Components/HelloMessage.jsx)
+    * [Help.jsx](src/Components/Help.jsx)
+    * [List.jsx](src/Components/List.jsx)
+    * [List2.jsx](src/Components/List2.jsx)
+    * [ListF.jsx](src/Components/ListF.jsx)
+    * [Redux.js](src/Components/Redux.js)
+    * [Section.jsx](src/Components/Section.jsx)
+    * [TextInput.jsx](src/Components/TextInput.jsx)
+* [slices](src/slices)
+    * [counterSlice.js](src/slices/counterSlice.js)
+    * [index.js](src/slices/index.js)
